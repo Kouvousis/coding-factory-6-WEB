@@ -1,0 +1,36 @@
+img {
+    width: 800px;
+    height: auto;
+}
+
+ul > li {
+    color: red;
+    border: 1px solid black;
+}
+ul  a:link {
+    color: yellow;
+}
+
+ul > li:first-child {
+    color: green;
+    background-color: aquamarine;
+}
+
+ul > li:not(:first-child) {
+    color: orange;
+    background-color: beige;
+}
+
+h1 + p {
+    color: blue;
+}
+/* to + simeni meta to element to ~ simeni OLA ta elements meta */
+
+a::before {
+    content: '\1f605';
+
+}
+
+a::after {
+    content: '\1f604';
+}

@@ -1,0 +1,22 @@
+h2[id],p[id] {
+    background-color: aquamarine;
+}
+
+a[href="#"]:hover {
+    background-color: blueviolet;
+}
+
+/* Gia ta class names: ksekinaei me tin leksi ^= 
+na periexi tin leksi *= na telioni me tin leksi $=*/
+
+*[class^="info"] {
+    background-color: chocolate;
+}
+
+*[class*="text"] {
+color: red;
+}
+
+h2[class$="title"] {
+    font-style: italic;
+}

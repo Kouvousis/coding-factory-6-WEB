@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+
+p {
+    color: red;
+    background-color: black;
+}
+
+/* #auebText {
+    color: green;
+} 
+ta id den ta xrisimopioume gia styling giati ta xrisimophi h javascript? */
+
+.aueb-text {
+    color: green;
+}
+.uoa-text {
+    color: rgb(18, 221, 221);
+}

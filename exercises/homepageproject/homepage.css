@@ -1,0 +1,125 @@
+/* colors
+--celtic-blue: #1372cfff;
+--taupe-gray: #7c7478ff;
+--yinmn-blue: #405171ff;
+--silver: #cbc9c9ff;
+--taupe: #44372dff; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/backround.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+
+nav {
+    width: 100%;
+    background-color: rgba(19, 114, 207, 0.6);
+
+}
+
+nav > ul {
+    height: 120px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 15px 10px;
+}
+
+.dropdown {
+    position: relative;
+    padding: 5px 10px;
+}
+
+.dropdown-content {
+    display: none;
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    padding-top: 50px;
+}
+
+.dropdown > a {
+    z-index: 1;
+    position: relative;
+}
+
+.dropdown-content > li {
+    width: 100%;
+    /* border-bottom: 1px solid white; */
+
+}
+
+.dropdown-content > li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(203, 201, 201, 0.6);
+    border-radius: 10px;
+}
+
+
+.dropdown:hover > ul {
+    display: flex;
+}
+
+.home-text-bold {
+    width: 50%;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    
+}
+
+.home-text-normal {
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    background-color: rgba(203, 201, 201, 0.6);
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    background-color: rgba(19, 114, 207, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}

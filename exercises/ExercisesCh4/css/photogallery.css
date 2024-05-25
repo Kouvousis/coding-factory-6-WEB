@@ -1,0 +1,25 @@
+.container {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: peachpuff;
+}
+
+div[class^=image] {
+    width: 300px;
+    height: auto;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+}
+
+.size {
+    width: 300px;
+    height: 300px;
+}

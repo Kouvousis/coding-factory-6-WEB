@@ -1,0 +1,116 @@
+:root {
+    --white: #f9f9f9;
+    --black: #36383f;
+    --grey: #85888c;
+    --brown: #762124;
+    --lightgrey: #d0cccc;
+    --navy: #002e94;
+    --blue: #083aa9;
+    --beige: #e1ceb5;
+    --wedding: #ffe7cc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 260px   ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+/* Header Styling */
+header {
+    background-color: var(--navy);
+    color: var(--wedding);
+    flex: 0 20%;
+}
+
+.header-title {
+    margin-left: 1rem;
+}
+
+/* Navigation Styling */
+nav ul {
+    width: 100%;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--wedding);
+}
+
+nav li a:hover {
+    background-color: var(--blue);
+}
+
+/* Main Styling */
+main {
+    flex: 0 80%;
+    background-color: var(--wedding);
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+/* Images Styling */
+.banner img {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bgcolor-beige {
+    background-color: var(--beige);
+}
+
+.article-padding {
+    padding: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        flex-direction: column;
+    }
+    
+    header {
+        position: fixed;
+        width: 100%;
+    }
+}
+    
