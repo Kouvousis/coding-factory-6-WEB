@@ -115,3 +115,55 @@ nav {
     font-size: 30px;
     outline-color: black;
 }
+
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f7c202;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-text {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+
+.send {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 10px;
+    align-items: center; 
+}
+
+
+.email input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f7c202;
+}
+
+
+.button button {
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #416f4a;
+    color: white;
+}
+
+hr {
+    color: #dca505;
+    padding: 0;
+}
+
+
+
+
+
+
